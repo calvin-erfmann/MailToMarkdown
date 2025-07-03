@@ -36,44 +36,50 @@ Clone the repo and install dependencies:
 git clone https://github.com/yourusername/mailtomarkdown.git
 cd mailtomarkdown
 pip install -r requirements.txt
+```
 
-📦 requirements.txt
-nginx
-Kopieren
-Bearbeiten
+#### 📦 requirements.txt
+
+
+```
 markdownify
 html2text
 tqdm
-🚀 2. Run the script
-bash
-Kopieren
-Bearbeiten
+```
+
+
+#### 🚀 2. Run the script
+
+```
 python export_mails.py
-You’ll be asked for:
+```
 
-Your email address
 
-Your password (secure input)
+#### You’ll be asked for:
 
-IMAP server (e.g. imap.example.com)
+- Your email address
 
-Port (usually 993)
+- Your password (secure input)
 
-Folder name (INBOX by default)
+- IMAP server (e.g. imap.example.com)
 
-Output folder (e.g. email_export)
+- Port (usually 993)
+
+- Folder name (INBOX by default)
+
+- Output folder (e.g. email_export)
 
 After that, the export starts. All emails are saved as .md files in the output folder, and all attachments go to attachments/.
 
-🧠 AI-Generated Notice
+---
+
+#### 🧠 AI-Generated Notice
 This tool was written largely with the help of ChatGPT (OpenAI), guided by personal goals and needs. I’m sharing it so that others don’t need to go through the same back-and-forth to get a working solution.
 
 Feel free to fork, improve, or adapt it 💌
 
 📂 Example Markdown Output
 markdown
-Kopieren
-Bearbeiten
 ---
 from: teacher@school.de
 to: calvin@example.com
@@ -89,15 +95,15 @@ Attached are your results. Congrats!
 
 Best,  
 Your teacher
-🖤 License
+
+
+---
+
+### 🖤 License
 MIT – use it however you want.
 
-☕ Author
-Made with love and memory-preserving intention by Calvin Erfmann
-
-yaml
-Kopieren
-Bearbeiten
+### ☕ Author
+Made with love and memory-preserving intention by Calvin-Nevaro Erfmann
 
 ---
 
